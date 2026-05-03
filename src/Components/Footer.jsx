@@ -3,11 +3,11 @@ import { assets } from "../assets/assets";
 
 const Footer = () => {
   return (
-    <footer class="px-6 md:px-16 lg:px-24 xl:px-32 mt-60 text-sm text-gray-500">
-      <div class="flex flex-col md:flex-row items-start justify-between gap-8 pb-6 border-borderColor py-10 border-b border-gray-500/30 text-gray-500">
+    <footer className="px-6 md:px-16 lg:px-24 xl:px-32 mt-60 text-sm text-gray-500">
+      <div className="flex flex-col md:flex-row items-start justify-between gap-8 pb-6 border-borderColor py-10 border-b border-gray-500/30 text-gray-500">
         <div>
-          <img class="h-8 md:h-9" src={assets.logo} alt="dummyLogoColored" />
-          <p class="max-4-80 mt-3 w-64">
+          <img className="h-8 md:h-9" src={assets.logo} alt="dummyLogoColored" />
+          <p className="max-4-80 mt-3 w-64">
             Premium car rental service with a wide selection of luxury and everyday vehicles for all your driving needs.
           </p>
 
